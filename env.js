@@ -17,12 +17,12 @@ const TESTNET = {
     NETWORK_HOST: 'testnet.telos.net',
     NETWORK_CHAIN_ID:
       '1eaa0824707c8c16bd25145493bf062aecddfeb56c736f6ba6397f3195f33c9f',
-    NETWORK_EVM_RPC: 'https://testnet.telos.net/evm',
-    NETWORK_EVM_ENDPOINT: 'https://testnet.telos.net',
-    NETWORK_EVM_CHAIN_ID: 41,
+    NETWORK_EVM_RPC: 'http://3.23.96.132:8545',
+    NETWORK_EVM_ENDPOINT: 'http://3.23.96.132:8545',
+    NETWORK_EVM_CHAIN_ID: 9353,
     NETWORK_EVM_DISPLAY: 'Telos Testnet',
     NETWORK_EVM_NAME: 'telos-evm-testnet',
-    HYPERION_ENDPOINT: 'https://testnet.telos.net',
+    HYPERION_ENDPOINT: 'http://3.23.96.132:8545',
     NETWORK_EXPLORER: 'https://explorer-test.telos.net',
     TELOS_API_ENDPOINT: 'https://api-dev.telos.net/v1', //'http://localhost:9999/v1', //for local instance of api
     INDEXER_API_ENDPOINT: 'https://api.testnet.teloscan.io/v1',
@@ -40,12 +40,12 @@ const MAINNET = {
     NETWORK_HOST: 'mainnet.telos.net',
     NETWORK_CHAIN_ID:
       '4667b205c6838ef70ff7988f6e8257e8be0e1284a2f59699054a018f743b1d11',
-    NETWORK_EVM_RPC: 'https://mainnet.telos.net/evm',
-    NETWORK_EVM_ENDPOINT: 'https://mainnet.telos.net',
-    NETWORK_EVM_CHAIN_ID: 40,
+    NETWORK_EVM_RPC: 'http://3.23.96.132:8545',
+    NETWORK_EVM_ENDPOINT: 'http://3.23.96.132:8545',
+    NETWORK_EVM_CHAIN_ID: 9353,
     NETWORK_EVM_DISPLAY: 'Telos',
     NETWORK_EVM_NAME: 'telos-evm',
-    HYPERION_ENDPOINT: 'https://mainnet.telos.net',
+    HYPERION_ENDPOINT: 'http://3.23.96.132:8545',
     NETWORK_EXPLORER: 'https://explorer.telos.net',
     TELOS_API_ENDPOINT: 'https://api.telos.net/v1',  //'http://localhost:9999/v1', //for local instance of api
     INDEXER_API_ENDPOINT: 'https://api.teloscan.io/v1',
